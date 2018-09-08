@@ -46,8 +46,6 @@ Requirements
 
     * Note: other versions are likely to work but have not been tested.
 
-* VirtualBox / Docker (already installed)
-
 Role Variables
 --------------
 
