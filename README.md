@@ -54,7 +54,7 @@ are shown below):
 
 ```yaml
 # Helm version number
-helm_version: '2.15.2'
+helm_version: '2.16.0'
 
 # Mirror to download the Helm from
 helm_mirror: 'https://storage.googleapis.com/kubernetes-helm'
