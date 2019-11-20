@@ -25,5 +25,5 @@ def test_file(host):
 
 def test_version(host):
     version = host.check_output('helm version --client --short')
-    pattern = 'Client: v[0-9\\.]+'
+    pattern = 'v[0-9\\.]+'
     assert re.search(pattern, version)
