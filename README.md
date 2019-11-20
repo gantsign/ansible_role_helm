@@ -53,10 +53,10 @@ are shown below):
 
 ```yaml
 # Helm version number
-helm_version: '2.16.0'
+helm_version: '3.0.0'
 
-# Mirror to download the Helm from
-helm_mirror: 'https://storage.googleapis.com/kubernetes-helm'
+# Mirror to download Helm from
+helm_mirror: 'https://get.helm.sh'
 
 # Dir where Helm should be installed
 helm_install_dir: '/usr/local/share/helm'
