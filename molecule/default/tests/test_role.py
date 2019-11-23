@@ -20,7 +20,7 @@ def test_file(host):
     assert installed_file.exists
     assert installed_file.is_file
     assert installed_file.user == 'root'
-    assert installed_file.group == 'root'
+    assert installed_file.group in ['root', 'staff']
 
 
 def test_version(host):
