@@ -53,7 +53,7 @@ are shown below):
 
 ```yaml
 # Helm version number
-helm_version: '3.0.2'
+helm_version: '3.1.0'
 
 # Mirror to download Helm from
 helm_mirror: 'https://get.helm.sh'
