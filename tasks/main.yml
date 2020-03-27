@@ -31,7 +31,7 @@
 
 - name: check current version
   command: >
-    {{ helm_install_dir }}/helm version --client --template {{ "'{{ .Client.SemVer }}'" }}
+    {{ helm_install_dir }}/helm version --client --template {{ "'{{ if .Version }}{{ .Version }}{{ else }}{{ .Client.SemVer }}{{ end }}'" }}
   register: helm_current_version
   failed_when: no
   changed_when: no
