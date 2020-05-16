@@ -13,4 +13,3 @@ helm_download_dir: "{{ x_ansible_download_dir | default(ansible_env.HOME + '/.an
 
 # The CPU architecture of the Helm redistributable
 helm_architecture: 'amd64'
-
