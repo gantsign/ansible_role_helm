@@ -55,6 +55,9 @@ are shown below):
 # Helm version number
 helm_version: '3.2.0'
 
+# The CPU architecture of the Helm executable to install
+helm_architecture: 'amd64'
+
 # Mirror to download Helm from
 helm_mirror: 'https://get.helm.sh'
 
