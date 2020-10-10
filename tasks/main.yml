@@ -79,6 +79,7 @@
       - '--strip-components=1'
     owner: root
     group: root
+    mode: 'o-w'
     creates: '{{ helm_install_dir }}/helm'
 
 - name: create helm link
@@ -89,3 +90,4 @@
     state: link
     owner: root
     group: root
+    mode: 'u=rwx,go=rx'
