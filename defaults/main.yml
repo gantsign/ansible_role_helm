@@ -1,6 +1,6 @@
 ---
 # Helm version number
-helm_version: '3.4.0'
+helm_version: '3.4.1'
 
 # The CPU architecture of the Helm executable to install
 helm_architecture: 'amd64'
