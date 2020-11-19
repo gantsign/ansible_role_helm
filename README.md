@@ -1,7 +1,7 @@
 Ansible Role: Helm
 ==================
 
-[![Build Status](https://travis-ci.com/gantsign/ansible_role_helm.svg?branch=master)](https://travis-ci.com/gantsign/ansible_role_helm)
+[![Tests](https://github.com/gantsign/ansible_role_helm/workflows/Tests/badge.svg)](https://github.com/gantsign/ansible_role_helm/actions?query=workflow%3ATests)
 [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-gantsign.helm-blue.svg)](https://galaxy.ansible.com/gantsign/helm)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gantsign/ansible_role_helm/master/LICENSE)
 
