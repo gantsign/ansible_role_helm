@@ -53,7 +53,7 @@ are shown below):
 
 ```yaml
 # Helm version number
-helm_version: '3.6.0'
+helm_version: '3.6.3'
 
 # The CPU architecture of the Helm executable to install
 helm_architecture: 'amd64'
