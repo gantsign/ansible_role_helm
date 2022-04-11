@@ -23,7 +23,7 @@
   get_url:
     url: '{{ helm_mirror }}/{{ helm_redis_filename }}'
     dest: '{{ helm_download_dir }}/{{ helm_redis_filename }}'
-    sha256sum: '{{ helm_sha256sum.content | b64decode | trim }}'
+    checksum: 'sha256:{{ helm_sha256sum.content | b64decode | trim }}'
     force: no
     use_proxy: yes
     validate_certs: yes
