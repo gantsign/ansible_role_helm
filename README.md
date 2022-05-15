@@ -11,7 +11,7 @@ Kubernetes.
 Requirements
 ------------
 
-* Ansible >= 2.8
+* Ansible >= 2.9
 
 * Linux Distribution
 
@@ -36,7 +36,7 @@ Requirements
 
         * Fedora
 
-            * 34
+            * 35
 
     * SUSE Family
 
@@ -54,7 +54,7 @@ are shown below):
 
 ```yaml
 # Helm version number
-helm_version: '3.7.1'
+helm_version: '3.8.2'
 
 # The CPU architecture of the Helm executable to install
 helm_architecture: 'amd64'
