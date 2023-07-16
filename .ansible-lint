@@ -1,0 +1,6 @@
+---
+skip_list:
+  - '405' # https://github.com/ansible/ansible-lint/issues/456
+exclude_paths:
+  - .tox/
+  - .venv/
