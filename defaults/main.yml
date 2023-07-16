@@ -1,3 +1,4 @@
+# code: language=ansible
 ---
 # Helm version number
 helm_version: '3.12.2'
