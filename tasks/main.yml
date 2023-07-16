@@ -1,3 +1,4 @@
+# code: language=ansible
 ---
 - name: create download directory
   ansible.builtin.file:

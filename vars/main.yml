@@ -1,3 +1,4 @@
+# code: language=ansible
 ---
 # The OS of the Helm redistributable
 helm_os: 'linux'
