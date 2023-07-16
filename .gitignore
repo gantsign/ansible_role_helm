@@ -290,8 +290,14 @@ $RECYCLE.BIN/
 ### Custom rules ###
 ####################
 
-### Molecule ### 
+### Molecule ###
 
 __pycache__
 .cache
 .molecule
+
+### Tox ###
+.tox
+
+### For development ###
+.venv

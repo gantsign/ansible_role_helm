@@ -1,4 +1,3 @@
-
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
 
@@ -8,11 +7,13 @@ LICENSE text
 .editorconfig text
 .gitattributes text
 .gitignore text
+.python-version text
 .yamllint text
 *.cfg text
 *.css text
 *.htm text
 *.html text
+*.in text
 *.js text
 *.json text
 *.less text
@@ -25,6 +26,7 @@ LICENSE text
 *.xml text
 *.yaml text
 *.yml text
+LICENSE text
 
 # Declare files that will always have CRLF line endings on checkout.
 *.bat text eol=crlf
