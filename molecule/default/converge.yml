@@ -8,7 +8,7 @@
       ansible.builtin.apt:
         update_cache: true
       changed_when: false
-      when: ansible_pkg_mgr == 'apt'
+      when: ansible_facts['pkg_mgr'] == 'apt'
 
   roles:
     - role: ansible_role_helm
