@@ -69,7 +69,7 @@
       - unzip
       - gzip
     state: present
-  when: ansible_pkg_mgr in ('apt', 'yum', 'dnf', 'zypper')
+  when: ansible_facts['pkg_mgr'] in ('apt', 'yum', 'dnf', 'zypper')
 
 - name: install Helm
   become: true

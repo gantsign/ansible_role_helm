@@ -13,4 +13,4 @@ helm_mirror: 'https://get.helm.sh'
 helm_install_dir: '/usr/local/share/helm'
 
 # Directory to store files downloaded for Helm
-helm_download_dir: "{{ x_ansible_download_dir | default(ansible_env.HOME + '/.ansible/tmp/downloads') }}"
+helm_download_dir: "{{ x_ansible_download_dir | default(ansible_facts['env']['HOME'] + '/.ansible/tmp/downloads') }}"
